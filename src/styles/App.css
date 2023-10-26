@@ -1,12 +1,60 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* MemoApp.css */
 
-button{
-    color: #27aedb;
+.memo-app {
     text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .actions {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .memo-input {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  /* Style for the "Submit" button */
+  .memo-input button {
+    padding: 10px 20px;
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
